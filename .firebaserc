@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "url-blocker-ea0bc": {
+      "hosting": {
+        "angular-chrome-extension": [
+          "url-blocker-ea0bc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "url-blocker-ea0bc"
+  }
+}

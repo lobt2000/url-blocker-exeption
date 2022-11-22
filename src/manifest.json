@@ -1,0 +1,23 @@
+
+{
+    "name": "Url Blocker Extension",
+    "version": "1.0",
+    "description": "Add url for blocking it",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "webNavigation",
+        "scripting",
+        "tabs",
+        "webRequest",
+        "background",
+        "storage"
+    ],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker": "background.js"
+      },
+    "action": {
+        "default_popup": "index.html"
+    }
+  }
